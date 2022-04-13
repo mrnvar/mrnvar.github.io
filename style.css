@@ -122,3 +122,20 @@ background-image: linear-gradient(-110deg, #fccbfa, #c4cbfa);
 .dd {
   margin-left: 25px;
 }
+ {
+display: flex;
+
+img {
+border-radius: 30%;
+}
+}
+.aa {
+text-decoration: none;
+margin-right: 10px;
+
+transition: transform .2s linear;
+
+&:hover {
+transform: translateY(-5px);
+}
+}
