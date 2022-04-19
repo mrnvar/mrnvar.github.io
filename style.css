@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.photo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+weight: 100%;
+height: 100vh;
+background: url("photo.jpg") center no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.cot {
+width: 100%;
+max-width: 880px;
+margin: 0 auto;
+}
+
+.titt {
+margin-bottom: 20px;
+color: #be00be;
+font-family: 'Kaushan Script',cursive;
+font-size: 20px;
+text-align: center;
+}
+.tit {
+color: #be00be;
+text-shadow: 2px 2px 2px black, 0 0 1em black;
+font-size: 90px;
+font weight: 700;
+text-transform: uppercase;
+text-align: center;
+line-height: 1;
+padding-top: 100px;
+}
+
+.header {
+  width: 100%
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f4c9f3;
+  padding-top: 30px;
+}
+
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.qq {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 25px;
+  position: relative;
+  color: #f4c9f3;
+  text-decoration: none;
+  transition: color .2s linear;
+}
+.qq:hover {
+  color: purple;
+}
+
+.section {
+  padding: 50px 50px;
+}
+
+.section_header {
+  font-size: 25px;
+  color: purple;
+  text-align: center;
+}
+.l {
+  font-size: 20px;
+  color: purple;
+  text-align: left;
+}
+.w {
+  text-align: left;
+  font-size: 18px;
+  color: #2c002e;
+}
+
+.cssSlider {
+	display: block;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.cssSlider .slides {
+	overflow: hidden;
+	overflow: hidden;
+	width: 100%;
+	height: 70vmin;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.cssSlider .slides > li {
+	width: 100%;
+	height: 70vmin;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+.cssSlider .slides > li > img {
+	width: 100%;
+	height: auto;
+}
+
+.cssSlider .thumbnails {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.cssSlider .thumbnails > li {
+	float: left;
+	width: 20%;
+}
+.cssSlider .thumbnails > li > a {
+	display: block;
+}
+.cssSlider .thumbnails > li > a > img {
+	width: 100%;
+	height: auto;
+}
+
+.cssSlider .slides li:target {
+	z-index: 3;
+	-webkit-animation: slide 1s 1;
+}
+.cssSlider .slides li:not(:target) {
+	-webkit-animation: hidden 1s 1;
+}
+@-webkit-keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@-webkit-keyframes hidden {
+	0% {
+		z-index: 2;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 2;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+@keyframes hidden {
+	0% {
+		z-index: 2;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 2;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+.me {
+  width: 250px;
+}
+
+.m{
+  padding-top: 50px;
+  color: #f4c9f3;
+  font-size: 15px;
+ text-align: center;
+}
+
+.section_headerr {
+    padding: 50px 100px;
+  font-size: 25px;
+  color: #f4c9f3;
+  text-align: center;
+  weight: 100%;
+  background: url("photo.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.pp {
+  width: 40px;
+}
+
+
+.section_headerrr {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.dd {
+  margin-left: 25px;
+  justify-content: center;
+ flex-direction: row;
+display: flex;
+  flex-wrap: wrap;
+}
+.qwerty {
+    padding: 0px 100px;
+padding-bottom: 30px;
+  weight: 100%;
+  background: url("photo.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.asd{
+  padding: 70px 80px;
+  padding-top: 25px;
+}
+.img {
+  border-radius: 30%;
+  }
+
+
+  .aa {
+  text-decoration: none;
+  text-align: center;
+  margin-right: 10px;
+  transition: transform .2s linear;
+}
+  .aa:hover {
+  transform: translateY(-5px);
+  }
